@@ -1,0 +1,73 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+simple-chat {
+	border: none;
+	height: 96%;
+}
+
+message-composer {
+	height: 40px;
+	border: none;
+	margin-bottom: 20px;
+	position: relative;
+	bottom: 10px;
+}
+
+message-composer textarea {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+message-composer button {
+	background-color: grey;
+	width: 75px;
+	margin: 1px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: 16px;
+}
+
+.chat-container {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+}
+
+.typing {
+	position: absolute;
+  bottom: 60px;
+  padding-left: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.message-detail {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.chat-bubble .message {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+}
+
+.chat-bubble .message img {
+	max-width: 200px;
+}
+
+.chat-bubble.left {
+	background-color: #c7eafc;
+	color: #45829b;
+}
+
+.chat-bubble.left::before {
+	background-color: #c7eafc;
+}
+
+.chat-bubble.right {
+	background-color: #ffe6cb;
+	color: #c48843;
+}
+
+.chat-bubble.right::before {
+	background-color: #ffe6cb;
+}

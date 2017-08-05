@@ -1,0 +1,41 @@
+{
+  "name": "ChatBot",
+  "version": "1.0.0",
+  "description": "ChatBot",
+  "main": [
+    "dist/angular-simple-chat.min.js",
+    "dist/angular-simple-chat.min.css"
+  ],
+  "authors": [
+    "asanoreizo <asano.reizo@mail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Showtimes/darion.me-bot",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.6.3",
+    "angular-sanitize": "1.6.3",
+    "moment": "momentjs#^2.11.2",
+    "angular-mocks": "1.6.3",
+    "chance": "^1.0.0",
+    "pubnub": "^3.13.0",
+    "pubnub-angular": "^3.1.1",
+    "angular-sanitize": "^1.6.3"
+  },
+  "devDependencies": {
+    "angular": "1.6.3",
+    "angular-sanitize": "1.6.3",    
+    "moment": "momentjs#^2.11.2",
+    "angular-mocks": "1.6.3",
+    "chance": "^1.0.0",
+    "pubnub": "^3.13.0",
+    "pubnub-angular": "^3.1.1"
+  }
+}
